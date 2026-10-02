@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "antivanish",
+  "version": "${version}",
+  "name": "AntiVanish",
+  "description": "L tusu ile acilan menu, vanish tespiti ve chat uyarisi.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.antivanish.AntiVanishMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
